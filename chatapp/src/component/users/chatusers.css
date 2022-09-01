@@ -1,0 +1,26 @@
+.chatusers{
+
+     display: flex;
+     align-items: center;
+     padding: 10px;
+     border-bottom:1px solid rgb(150, 150, 150);
+     margin: 5px;
+    
+}
+.chatusers__desc{
+
+     display: flex;
+     flex-direction: column;
+     margin-left: 10px;
+     
+}
+.chatusers__desc>div{
+
+   font-size: 18px;
+   font-weight: 600;
+   color: white;
+}
+.chatusers__desc>p{
+
+     margin: 0;
+}

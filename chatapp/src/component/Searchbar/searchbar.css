@@ -1,0 +1,27 @@
+.searchbar{
+     position: relative;
+}
+.searchbar__container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+}
+.searchbar__center{
+     position: absolute;
+     height: auto;
+     z-index: 1;
+     background-color: white;
+     box-shadow: 0px 0px 10px 1px rgb(191, 191, 181);
+     width: 98%;
+     padding: 4px;  
+     border-radius: 5px;
+}
+.searchbar__center>div{
+
+     border-bottom: 1px solid lightgray;
+     margin-top: 10px;
+     padding: 4px;
+     font-size: 17px;
+     font-weight: 600;
+}
